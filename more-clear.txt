@@ -1,0 +1,32 @@
+2.: 
+option 1
+
+insert  fid given
+		fname given
+		deptid given
+		salary 
+	salary calulcated by
+	a = avg salary for the dept
+	if a > 50,000
+		salary = .9 * a
+	else if a < 30,000
+		salary = a
+	else
+		salary = .8 * a
+
+option 2:
+	   insert
+	   		fid given
+	   		fname given
+	   		deptid given
+	   		salary
+
+	   	salary:
+	   		a = avg salary for all university
+	   			exept
+	   			members from this dept
+
+option 3
+
+SELECT * FROM FACULTY;
+
